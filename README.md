@@ -1,6 +1,6 @@
-# ASL Sign Detector
+# ASL Sign Language Recognition
 
-A real-time American Sign Language (ASL) detection application that recognizes hand signs using a webcam.
+A real-time American Sign Language (ASL) detection application that recognizes hand signs using a webcam. This project utilizes Machine Learning and deep learning LSTM model for accurate sign language recognition.
 
 ## Features
 
@@ -58,4 +58,4 @@ pillow>=9.0.0
 - `run_asl.bat` - Windows batch launcher
 - `asl_classifier_finetuned.h5` - Trained ASL classification model
 - `class_mapping.npy` - Mapping of class indices to ASL letters
-- `requirements.txt` - Required dependencies 
+- `requirements.txt` - Required dependencies
