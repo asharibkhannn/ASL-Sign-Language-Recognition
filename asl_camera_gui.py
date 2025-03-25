@@ -41,8 +41,6 @@ class ASLDetectorApp:
         """Load the trained ASL classifier model"""
         # Check for different possible model filenames
         model_options = [
-            'asl_classifier_best.h5',
-            'asl_classifier_final.h5',
             'asl_classifier_finetuned.h5'  # Add the new filename
         ]
         
